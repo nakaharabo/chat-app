@@ -35,10 +35,32 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
 }
 
-.side_bottom{
+.create-room a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: solid 1px lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.rooms {
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room-name a{
+  text-decoration: none;
+  color: white;
 }
